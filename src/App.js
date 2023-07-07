@@ -37,6 +37,7 @@ function App() {
   return (
     <div className="cardtemplate">
       {name.map((ele) => (
+        // console.log(ele.image  )
         <Card image={ele.image} name={ele.name} />
       ))}
     </div>
